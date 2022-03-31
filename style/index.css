@@ -75,6 +75,25 @@ footer{
     }
 
     .top-part {
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .about-block {
+        width: 85%;
+        text-align: center;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .project-element {
+        width: 40%;
+        margin: 1% 0;
     }
 }
