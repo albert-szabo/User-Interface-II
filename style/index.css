@@ -12,3 +12,23 @@ footer{
     text-align: center;
     padding: 15px;
 }
+
+.top-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-block{
+    padding: 25px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.project-element {
+    text-align: center;
+}
