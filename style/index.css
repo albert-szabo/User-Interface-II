@@ -5,22 +5,21 @@ header{
     margin-bottom: 10px;
 }
 
-
-
-footer{
-    background-color: lightgrey;
-    text-align: center;
-    padding: 15px;
-}
-
 .top-part{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 20px;
 }
 
 .about-block{
-    padding: 25px;
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 
 .row{
@@ -31,6 +30,12 @@ footer{
 
 .project-element {
     text-align: center;
+}
+
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 15px;
 }
 
 .social-links {
